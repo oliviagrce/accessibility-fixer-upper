@@ -1,6 +1,5 @@
 html {
   font-family: Merriweather, serif;
-  font-weight: bold;
 }
 
 .color-brand {
@@ -13,7 +12,11 @@ html {
 
 a {
   color: #568c36;
-  text-decoration: underline;
+}
+
+.nav a:focus {
+  outline: 3px solid #000;
+  text-decoration: none;
 }
 
 a:hover {
@@ -33,11 +36,6 @@ a:hover {
 }
 
 .nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav a:focus {
   color: #fff;
   text-decoration: none;
 }
@@ -69,10 +67,6 @@ td {
   background-color: #eeebe9;
 }
 
-.news-articles {
-  text-decoration: underline;
-}
-
 .contact {
   background-color: #dfdcda;
 }
@@ -92,6 +86,10 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+.highlight {
+  color: #113c00;
 }
 
 @media only screen and (min-width: 35em) {
