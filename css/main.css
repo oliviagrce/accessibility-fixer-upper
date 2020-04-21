@@ -1,5 +1,6 @@
 html {
   font-family: Merriweather, serif;
+  font-weight: bold;
 }
 
 .color-brand {
@@ -61,6 +62,10 @@ td {
 
 .news {
   background-color: #eeebe9;
+}
+
+.news-articles {
+  text-decoration: underline;
 }
 
 .contact {
