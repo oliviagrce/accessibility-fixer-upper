@@ -35,6 +35,13 @@ a:hover {
 .nav a {
   color: #fff;
   text-decoration: none;
+
+}
+
+.nav a:focus {
+  color: #fff;
+  text-decoration: none;
+
 }
 
 .nav a:hover {
