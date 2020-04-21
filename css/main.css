@@ -2,11 +2,7 @@ html {
   font-family: Merriweather, serif;
 }
 
-.color-brand {
-  color: #568c36;
-}
-
-.color-brand-dark {
+.dark-green {
   color: #113c00;
 }
 
@@ -88,7 +84,7 @@ td {
   color: #fff;
 }
 
-.highlight {
+.underline {
   color: #113c00;
 }
 
